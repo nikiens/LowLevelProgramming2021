@@ -13,7 +13,7 @@
 
 \usepackage{caption}
 \renewcommand{\lstlistingname}{Программа} % заголовок листингов кода
-
+\renewcommand{\thesubsection}{\phantom}
 \bibliographystyle{ugost2008ls}
 
 \usepackage{listings}
@@ -52,7 +52,6 @@ top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
 %%Точки нумерации заголовков
 \usepackage{titlesec}
 \titlelabel{\thetitle.\quad}
-\usepackage[dotinlabels]{titletoc}
 
 %% Оформления подписи рисунка
 \addto\captionsrussian{\renewcommand{\figurename}{Рисунок}}
