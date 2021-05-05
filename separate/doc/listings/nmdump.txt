@@ -1,0 +1,10 @@
+
+libtrapz.o:
+         U __adddf3
+000000e4 t .L1
+00000058 t .L3
+0000011c t .L4
+00000000 r .LC0
+         U __muldf3
+         U __subdf3
+00000000 T trapz

@@ -3,7 +3,7 @@ all:
 	make doc
 
 doc:
-	pdflatex report.tex
+	pdflatex doc/report.tex
 
 clean:
 	rm -f *.aux

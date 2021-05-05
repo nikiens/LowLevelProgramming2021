@@ -1,0 +1,21 @@
+
+libtrapz.o:     file format elf32-littleriscv
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 libtrapz.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .srodata.cst8	00000000 .srodata.cst8
+00000000 l       .srodata.cst8	00000000 .LC0
+0000011c l       .text	00000000 .L4
+00000058 l       .text	00000000 .L3
+000000e4 l       .text	00000000 .L1
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .riscv.attributes	00000000 .riscv.attributes
+00000000         *UND*	00000000 __adddf3
+00000000         *UND*	00000000 __subdf3
+00000000         *UND*	00000000 __muldf3
+00000000 g     F .text	00000128 trapz
+
+

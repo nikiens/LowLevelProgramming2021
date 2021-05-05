@@ -1,0 +1,19 @@
+
+main.o:     file format elf32-littleriscv
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 main.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata.str1.4	00000000 .rodata.str1.4
+00000000 l    d  .rodata	00000000 .rodata
+00000000 l       .rodata	00000000 .LANCHOR0
+00000000 l       .rodata.str1.4	00000000 .LC2
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .riscv.attributes	00000000 .riscv.attributes
+00000000 g     F .text	000000ec main
+00000000         *UND*	00000000 trapz
+00000000         *UND*	00000000 printf
+
+
